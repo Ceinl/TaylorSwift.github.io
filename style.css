@@ -1,0 +1,189 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+
+body
+{
+    font-family: 'Playfair Display', serif;
+}
+
+.Card_Basic {
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+    box-shadow: 10px 5px 10px black;  }
+
+
+
+  .card_TaylorSwift
+  {
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+    background-image: url('src/img/TaylorSwift.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .card_Fearless
+  {
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+    background-image: url('src/img/Fearless.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .card_Red
+  {
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+    background-image: url('src/img/red.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+  .card_1989
+  {
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+    background-image: url('src/img/a1989.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+  .card_Reputation
+  {
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+    background-image: url('src/img/reputation.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+  .card_Lover
+  {
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+    background-image: url('src/img/lover.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+  .card_Folklore
+  {
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+    background-image: url('src/img/folclore.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+  .card_Evermore
+  {
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+    background-image: url('src/img/evermore.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+  .card_Midnights
+  {
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+    background-image: url('src/img/midnights.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+  .card_Mistery
+  {
+
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+    background-color: pink;
+    font-size: 480%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+  .card_Valentine
+  {
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+    background-color: pink;
+
+    font-size: 480%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

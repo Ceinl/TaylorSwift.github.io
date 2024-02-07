@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Website</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <main>
+    <div class="Card_Basic">
+      <div class="card_Valentine"><span style="left: 5px;">Ти будеш моєю валентинкою?</span></div>
+      <div class="card_Mistery"onclick="hideOnClick('card_Mistery')"><span style="left: 5px;">Ні не новий альбом хіхіхі</span></div>
+      <div class="card_Midnights" onclick="hideOnClick('card_Midnights')"></div>
+      <div class="card_Evermore" onclick="hideOnClick('card_Evermore')"></div>
+      <div class="card_Folklore" onclick="hideOnClick('card_Folklore')"></div>
+      <div class="card_Lover" onclick="hideOnClick('card_Lover')"></div>
+      <div class="card_Reputation" onclick="hideOnClick('card_Reputation')"></div>
+      <div class="card_1989" onclick="hideOnClick('card_1989')"></div>
+      <div class="card_Red" onclick="hideOnClick('card_Red')"></div>
+      <div class="card_Fearless" onclick="hideOnClick('card_Fearless')"></div>
+      <div class="card_TaylorSwift" onclick="hideOnClick('card_TaylorSwift')"></div>
+
+
+
+
+
+
+    </div>
+  </main>
+  <script>
+    function hideOnClick(className) {
+      const elements = document.getElementsByClassName(className);
+
+      for (let i = 0; i < elements.length; i++) {
+        elements[i].style.display = 'none';
+      }
+    }
+  </script>
+</body>
+</html>
